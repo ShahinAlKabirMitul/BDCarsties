@@ -14,7 +14,19 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controller\" />
+      <Compile Remove="Controller\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Controller\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Controller\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Controller\**" />
     </ItemGroup>
 
 </Project>
