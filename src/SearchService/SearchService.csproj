@@ -31,4 +31,8 @@
       <None Remove="Controller\**" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Contracts\Contracts.csproj" />
+    </ItemGroup>
+
 </Project>
